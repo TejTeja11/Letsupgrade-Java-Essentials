@@ -1,0 +1,28 @@
+class Employee // creating class
+{
+    String name; // creating variables name,age,city
+    int age;
+    String city;
+    void display() // creating function display 
+    {
+        System.out.println("The name is "+name);
+        System.out.println("The age is "+age);
+        System.out.println("The city is "+city);
+    }
+}
+public class Main //Main class
+{
+    public static void main(String args[])
+    {
+        Employee e1 = new Employee(); // creating object 1
+        e1.name = "Saurab";
+        e1.age = 23;
+        e1.city = "chennai";
+        e1.display();
+        Employee e2 = new Employee(); // creating object 2
+        e2.name = "Tej";
+        e2.age = 20;
+        e2.city = "Hyderabad";
+        e2.display();
+    }
+}
